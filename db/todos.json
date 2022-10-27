@@ -12,8 +12,8 @@
     },
     {
       "id": 3,
-      "title": "Fix the gutters",
-      "completed": true
+      "title": "Feed the cat",
+      "completed": false
     }
   ]
 }
