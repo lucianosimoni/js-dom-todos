@@ -11,12 +11,12 @@
 <body>
   <div>
     <h2>Add Todo</h2>
-    <form>
+    <form onsubmit="addTodo()">
         <label>
           Title
-          <input name="title" />
+          <input id="title-input" name="title" />
         </label>
-        <input type="submit" value="Add">
+        <input id="submit-button" type="submit" value="Add">
     </form>
   </div>
   <div>
