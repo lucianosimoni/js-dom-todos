@@ -63,6 +63,7 @@ function deleteToDo(todo) {
     })
     .then((newTodo) => {
       getTodoList()
+      console.log(state)
     })
 }
 
@@ -81,5 +82,6 @@ function renderTodo() {
     })
   })
 }
+console.log(state)
 
 getTodoList()
